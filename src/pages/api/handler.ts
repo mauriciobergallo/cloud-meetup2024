@@ -5,7 +5,7 @@ export default function handler(
   response: NextApiResponse
 ) {
   response.status(200).json({
-    body: 'This is my Serverless Function - Mauricio',
+    body: 'Nueva función lambda - FaaS is great!',
     query: request.query,
   });
 }
