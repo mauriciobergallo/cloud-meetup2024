@@ -5,7 +5,7 @@ export default function handler(
   response: NextApiResponse
 ) {
   response.status(200).json({
-    body: 'Nueva función como Servicio - La virtualización es genial!!! v1 (en español)',
+    body: 'Función Publicada en Vivo',
     query: request.query,
   });
 }
